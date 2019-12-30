@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body {
+  background: #ffffff;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+​
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+  border: none;
+  color: #000000;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+​
+input,
+textarea,
+select {
+  outline: none;
+  font-family: Arial;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+​
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+​
+a {
+  text-decoration: underline;
+  outline: none;
+}
+
+​
+a:hover {
+  text-decoration: none;
+}
+
+​
+a span {
+  border: 1px solid red;
+}
+
+h1, h2 {
+  font-size: 20px;
+  padding: 0 0 5px 0;
+  color: #ffcc00;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.musicList {
+  font-size: 20px;
+  list-style: none;
+  padding: 10px;
+}
+
+.musicList span {
+  font-size: 18px;
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
